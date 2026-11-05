@@ -20,10 +20,10 @@ PID Python: 26248
 
 ## Снимки экрана
 
-![1. Сборка и запуск](01_build_run.png)
-![2. Библиотеки файла libs](02_file_libraries.png)
-![3. Библиотеки интерпретатора Python](03_python_libraries.png)
-![4. Номер процесса Python](04_python_pid.png)
-![5. Библиотеки процесса до загрузки](05_libraries_before.png)
-![6. Библиотека загружена](06_library_loaded.png)
-![7. Библиотеки процесса после загрузки](07_libraries_after.png)
+![1. Сборка и запуск](screenshots/01_build_run.png)
+![2. Библиотеки файла libs](screenshots/02_file_libraries.png)
+![3. Библиотеки интерпретатора Python](screenshots/03_python_libraries.png)
+![4. Номер процесса Python](screenshots/04_python_pid.png)
+![5. Библиотеки процесса до загрузки](screenshots/05_libraries_before.png)
+![6. Библиотека загружена](screenshots/06_library_loaded.png)
+![7. Библиотеки процесса после загрузки](screenshots/07_libraries_after.png)

@@ -22,3 +22,13 @@ name[0] = `97` (код буквы), завершающий ноль в ячей�
 
 Не получилось: были некоторые проблемы, но в целом задание лёгкое; надо было немного освоиться в интерфейсе.
 ИИ: не использовал.
+
+## Снимки экрана
+![1. Сборка и запуск без отладчика](screenshots/01_build_run.png)
+![2. Точка останова](screenshots/02_breakpoint.png)
+![3. Остановка перед строкой 15](screenshots/03_paused.png)
+![4. Массив name по ячейкам](screenshots/04_array_name.png)
+![5. Цикл в Watch](screenshots/05_watch_loop.png)
+![6. Внутри функции area](screenshots/06_call_stack.png)
+![7. Машинный код строки 10](screenshots/07_disassembly.png)
+![8. Программа доработала](screenshots/08_finished.png)
