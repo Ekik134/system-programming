@@ -1,27 +1,25 @@
 # ЛР 9. Разбор падения
 
-Система: ___
-Компилятор: ___
+Система: `Windows`
+Компилятор: `x64 Native Tools Command Prompt for VS 2022`
 
 ## Падение
-crash null: что напечатано и код завершения: ___
-ctypes_crash.py: что напечатал Python: ___
-Где система записала падение: ___
+crash null: что напечатано и код завершения: `-1073741819`
+ctypes_crash.py: что напечатал Python: `OSError: exception: access violation writing 0x0000000000000000`
+Где система записала падение: `Explorer.EXE`
 
 ## Молчаливые ошибки
-crash overflow: limit до и после, код: ___
-crash heap без проверки: ___
-AddressSanitizer для heap: вид ошибки и строка: ___
-AddressSanitizer для uaf: вид ошибки и две строки: ___
+crash overflow: limit до и после, код: `100, 7, 0`
+crash heap без проверки: `wrote 5 numbers into room for 4`
+AddressSanitizer для heap: вид ошибки и строка: `heap-buffer-overflow, 24`
+AddressSanitizer для uaf: вид ошибки и две строки: `heap-use-after-free, 32-33`
 
 ## Исправление
-Что изменено и что напечатала исправленная программа: ___
+Что изменено и что напечатала исправленная программа: `i <= 4 заменено на i < 4, wrote 4 numbers into room for 4, limit before: 100/limit after:  100`
 
-Не получилось: ___
+Не получилось: всё получилось.
 
 ## Снимки экрана
-
-Сохраните снимок поверх заглушки в папке `screenshots/` с тем же именем — ссылки ниже менять не нужно.
 
 ### 1. Падение
 Шаг 1. Видно: запуск crash null и код завершения.
